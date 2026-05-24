@@ -1,16 +1,113 @@
-# React + Vite
+# 🎬 Media Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive media search application built with React, Redux Toolkit, and Tailwind CSS that allows users to search for **Photos, Videos, and GIFs** from multiple APIs in one place.
 
-Currently, two official plugins are available:
+---
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Live Website:  
+https://media-search-app-one.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### 🏠 Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1899" height="961" alt="image" src="https://github.com/user-attachments/assets/b83c91b4-1094-4b7c-8abd-666043aee96f" />
+
+
+---
+
+### ❤️ Collection Page
+
+<img width="1906" height="926" alt="image" src="https://github.com/user-attachments/assets/50a7d755-ae45-4ead-8136-59ee50ebbc63" />
+
+
+---
+
+## 🚀 Live Features
+
+✨ Search high-quality Photos  
+🎥 Explore trending Videos  
+😂 Discover GIFs instantly  
+❤️ Save media to your personal Collection  
+📌 Persistent localStorage collections  
+🔄 Separate pagination for Photos, Videos & GIFs  
+⚡ Fast and optimized loading  
+📱 Fully responsive UI  
+🔥 Toast notifications  
+🎨 Smooth modern UI with Tailwind CSS  
+
+---
+
+# 🖼️ Preview
+
+## Home Page
+- Search media instantly
+- Switch between Photos / Videos / GIFs
+- Responsive media grid layout
+
+## Collection Page
+- Save favorite media
+- Remove media anytime
+- Persistent storage using localStorage
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+- React
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- Axios
+- React Toastify
+
+### APIs Used
+- Unsplash API
+- Pexels API
+- Giphy API
+
+---
+
+# ⚡ Performance Optimizations
+
+✅ Lazy Loading Images  
+✅ Optimized Image Sizes  
+✅ Pagination System  
+✅ Faster Media Rendering  
+✅ Skeleton Loading UI  
+✅ LocalStorage Persistence  
+
+---
+
+# 📂 Project Structure
+
+```bash
+src
+│
+├── api
+│   └── MediaApi.js
+│
+├── components
+│   ├── Navbar.jsx
+│   ├── SearchBar.jsx
+│   ├── Tabs.jsx
+│   ├── ResultGrid.jsx
+│   ├── ResultCard.jsx
+│   ├── CollectionCard.jsx
+│   └── Pagination.jsx
+│
+├── pages
+│   ├── HomePage.jsx
+│   └── CollectionPage.jsx
+│
+├── redux
+│   ├── store.js
+│   └── features
+│       ├── searchSlice.js
+│       └── collectionSlice.js
+│
+└── App.jsx
