@@ -6,7 +6,7 @@ A modern and responsive media search application built with React, Redux Toolkit
 ## 🌐 Live Demo
 
 🚀 Live Website:  
-https://media-search-app-one.vercel.app/
+https://media-search-app-3ga2.vercel.app/
 
 ---
 
